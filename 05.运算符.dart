@@ -11,15 +11,15 @@ void main() {
 
   print("-------------------------");
 
-  //??= 运算符
-  int c = 6;
-  c ??= 50; //c为空的时候 把50赋值给c
-  print(c);
-
   //三元运算符
   bool flag = false;
   var d = flag ? '我是true' : '我是false';
   print(d);
+
+  //??= 运算符
+  int c = 6;
+  c ??= 50; //c为空的时候 把50赋值给c
+  print(c);
 
   //?? 运算符 
   var e;
