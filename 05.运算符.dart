@@ -23,6 +23,6 @@ void main() {
 
   //?? 运算符 
   var e;
-  var f = e ?? 10; //e 为空 将10赋值给f 
+  var f = e ?? 10; //e 为空 将10赋值给e e赋值给f 
   print(f);
 }
