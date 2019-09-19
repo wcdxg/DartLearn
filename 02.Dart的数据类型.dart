@@ -11,11 +11,13 @@ void main() {
     this is a string
     this is a string
     ''';
+    print(str2);
 
   //2.double 既可以是整形 也可以是浮点型
   var d = 23.5;
   var da = 23;
   print(d);
+  print(da);
 
   //3.int
   var i = 50;
