@@ -17,7 +17,7 @@ void main() {
   list3.add('value');
   print("-------------------------------------");
 
-//第一种定义Maps的方式
+//第一种定义Map的方式
   var person = {
     "name": "张三",
     "age": 20,
