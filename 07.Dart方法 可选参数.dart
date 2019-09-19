@@ -26,7 +26,7 @@ void main() {
     print('我是fn1方法');
   }
 
-  void fn2(aa) {
+  void fn2(void aa()) {
     aa();
   }
 
