@@ -17,4 +17,18 @@ void main() {
   var newList = list2.map((value) => value > 2 ? value * 2 : value);
 
   print(newList);
+
+  //闭包
+  fn() {
+    var a = 123;
+    return (){
+      a++;
+      print(a);
+    };
+  }
+
+  var b = fn();
+  b();
+  b();
+  b();
 }
