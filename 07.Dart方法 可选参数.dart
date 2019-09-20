@@ -8,6 +8,7 @@ void main() {
     }
   }
 
+  print(printUserInfo('张三'));
   print(printUserInfo('张三', 20, '女'));
 
   //2.匿名参数
@@ -19,7 +20,8 @@ void main() {
     }
   }
 
-  print(printUserInfo2('李四', age: 40));
+  print(printUserInfo2('李四'));
+  print(printUserInfo2('李四', age: 40, sex: '女'));
 
   //3.方法当做参数
   void fn1() {

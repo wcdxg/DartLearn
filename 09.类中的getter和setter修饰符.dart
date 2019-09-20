@@ -11,11 +11,19 @@ class Rect {
   set areaHeight(value) {
     this.height = value;
   }
+
+  setWidth(num value) {
+    this.width = value;
+  }
 }
 
 void main() {
   var rect = Rect(5, 2);
-  rect.areaHeight = 10;
+  // rect.areaHeight = 10;
+
+  //连缀操作
+  rect..setWidth(20)
+      ..areaHeight = 10;
 
   print('Area= ${rect.area}');
 }
