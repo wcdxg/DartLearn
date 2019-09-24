@@ -8,7 +8,8 @@ void main() {
     }
   }
 
-  print(printUserInfo('张三'));
+  //使用必须按照方法参数顺序使用
+  //print(printUserInfo('张三','女'));//会报错
   print(printUserInfo('张三', 20, '女'));
 
   //2.匿名参数
@@ -19,7 +20,7 @@ void main() {
       return "姓名$userName 年龄保密 性别$sex";
     }
   }
-
+//使用可以不按照方法参数顺序使用 需要指定参数名称
   print(printUserInfo2('李四'));
   print(printUserInfo2('李四', age: 40, sex: '女'));
 
