@@ -1,4 +1,5 @@
 class A {
+
   printA() {
     print("A");
   }
@@ -12,7 +13,7 @@ class B {
 
 //1.作为mixins的类智能继承自Object不能继承其他类,例如A继承自其他类就无法被C类mixins
 //2.作为mixins的类不能有构造函数
-//3.一个雷可以mixins多个mixins类
+//3.一个类可以mixins多个mixins类
 //4.mixins不是继承,也不是接口,而是一种全新的特性
 
 class C with A, B {
